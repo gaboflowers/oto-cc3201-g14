@@ -1,6 +1,8 @@
 # oto-cc3201-g14
 Proyecto grupo 14 Bases de Datos
 
+Por ahora está disponible a la vista en padón de La Florida. Pronto añadiremos más.
+
 Usaremos el padrón electoral y los resultados de las votaciones por mesas:
 - Resultados de votación: 13_Resultados_Mesa_Alcaldes_TER.xlsx
 - Padrón electoral La Florida (~300.000 registros):
