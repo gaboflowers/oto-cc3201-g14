@@ -9,3 +9,7 @@ Usaremos el padrón electoral y los resultados de las votaciones por mesas:
 - Parser pdf -> texto:
 	https://github.com/jpalma-espinosa/servel/blob/master/servelParser.py
 
+Nuestro base estará compuesta de las tablas:
+- Para todos los votantes (nombre, rut, direccion, mesa, etc.)
+- Para las direcciones (dirección, circuncripcion, comuna, etc.)
+- Resultados por mesa (pacto, candidato, votos)
