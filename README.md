@@ -13,5 +13,7 @@ Usaremos el padrón electoral y los resultados de las votaciones por mesas:
 
 Nuestro base estará compuesta de las tablas:
 - Para todos los votantes (nombre, rut, direccion, mesa, etc.)
-- Para las direcciones (dirección, circuncripcion, comuna, etc.)
+- Para las direcciones (dirección_servel, circuncripcion, comuna, latitud, longitud, etc.)
 - Resultados por mesa (pacto, candidato, votos)
+
+Dado lo irregulares que son las direcciones en el padrón electoral, usamos la API de Google, para consultar gmaps.geocode(<direccion>+comuna+region+"Chile"), con lo que obtenemos columnas para N° de casa y Calle.
